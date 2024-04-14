@@ -1,3 +1,4 @@
+@import 'variables.scss';
 .menu {
     min-width: 264px;    
     margin-top: 9px;
@@ -5,7 +6,7 @@
     &__wrap {
         padding: 12px;
         list-style: none;
-        border: 1px solid #CFCFE4;
+        border: 1px solid $gray;
         border-radius: 18px;
     }
 
@@ -18,12 +19,12 @@
         line-height: 18px;
         letter-spacing: -0.1px;
         text-align: left;
-        color: #39414B;
+        color: $darkgray;
         padding: 12px;
         border-radius: 12px;
 
         &:hover, &_emphasized {
-            background-color: #5FBF77;
+            background-color: $hovercolor;
             color: #ffffff;
             cursor: pointer;
         }

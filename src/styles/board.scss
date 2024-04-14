@@ -1,7 +1,5 @@
-
+@import 'variables.scss';
 .board {
-    /*display: flex;
-    flex-wrap: wrap;*/
     width: calc(100% - 264px);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
